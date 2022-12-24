@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="editar">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="5dp"
+        android:layout_weight="1"
+        android:src="@mipmap/cargando"/>
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/editUsuario"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:enabled="false"
+        android:hint="Mail"
+        android:layout_margin="20dp"
+        android:inputType="textEmailAddress"/>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/editPassword"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:hint="Password"
+        android:layout_margin="20dp"
+        android:inputType="textPassword"/>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/editNombre"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:hint="Nombre"
+        android:layout_margin="20dp"
+        android:inputType="textPersonName"/>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/editApellido"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:hint="Apellido"
+        android:layout_margin="20dp"
+        android:inputType="textPersonName"/>
+    <Button
+        android:id="@+id/btnEditActualizar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:text="Actualizar"
+        android:background="#0000ff"
+        android:layout_margin="20dp"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:textSize="30dp"/>
+    <Button
+        android:id="@+id/btnEditCancelar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:text="Cancelar"
+        android:background="#ff0000"
+        android:layout_margin="20dp"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:textSize="30dp"/>
+
+
+</LinearLayout>
